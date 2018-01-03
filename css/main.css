@@ -114,7 +114,7 @@ figcaption {
 }
 
 .bonbons {
-  width: 50%;
+  width: 33.3%;
   height: auto;
   max-width: 50em;
   display: block;
@@ -127,12 +127,7 @@ figcaption {
     text-align: center;
   }
 
-  .bonbons {
-    width: 33.3%;
-    height: auto;
-    max-width: 50em;
-    float: left;
-  }
+
 
 }
 
