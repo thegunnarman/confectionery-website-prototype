@@ -51,7 +51,9 @@ header {
   text-align: center;
 }
 
-
+nav {
+  text-align: center;
+}
 
 nav ul {
   margin: 0;
@@ -118,6 +120,13 @@ figcaption {
   padding-bottom: 1rem;
 }
 
+.bonbons {
+  width: 50%;
+    height: auto;
+    max-width: 50em;
+    display: block;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -125,6 +134,14 @@ figcaption {
     display: inline-block;
     text-align: center;
   }
+
+  .bonbons {
+    width: 33.3%;
+      height: auto;
+      max-width: 50em;
+      float: left;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -132,6 +149,13 @@ figcaption {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .bonbons {
+    width: 33.3%;
+      height: auto;
+      max-width: 50em;
+      float: left;
   }
 
 
@@ -148,8 +172,6 @@ figcaption {
     background-color: rgba(0, 0, 0, .3);
     color: #fff;
   }
-
-}
 }
 
 @media only screen and (min-width: 60em) {
