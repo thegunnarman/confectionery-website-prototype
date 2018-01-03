@@ -41,10 +41,6 @@ img {
   max-width: 50em;
 }
 
-body {
-  margin: 2em;
-}
-
 header {
   padding: .5rem 0;
   background-color: #ccc;
@@ -77,9 +73,6 @@ nav a:hover {
   color: #fff;
 }
 
-
-
-
 p {
   margin: 0 0 1.3rem;
 }
@@ -90,7 +83,7 @@ figcaption {
 }
 
 .banner {
-  margin: 0 0 1em 0;
+  margin: 0 0 1em;
   background-color: #e2e2e2;
 }
 
@@ -122,11 +115,10 @@ figcaption {
 
 .bonbons {
   width: 50%;
-    height: auto;
-    max-width: 50em;
-    display: block;
+  height: auto;
+  max-width: 50em;
+  display: block;
 }
-
 
 @media only screen and (min-width: 25em) {
 
@@ -137,9 +129,9 @@ figcaption {
 
   .bonbons {
     width: 33.3%;
-      height: auto;
-      max-width: 50em;
-      float: left;
+    height: auto;
+    max-width: 50em;
+    float: left;
   }
 
 }
@@ -153,11 +145,10 @@ figcaption {
 
   .bonbons {
     width: 33.3%;
-      height: auto;
-      max-width: 50em;
-      float: left;
+    height: auto;
+    max-width: 50em;
+    float: left;
   }
-
 
   .banner {
     position: relative;
@@ -191,8 +182,6 @@ figcaption {
     display: inline-block;
     text-align: center;
   }
-
-
 
 }
 
