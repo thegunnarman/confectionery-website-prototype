@@ -39,55 +39,42 @@ img {
   height: auto;
 }
 
-nav {
-  display: block;
-  text-decoration: none;
+body {
+  margin: 0;
 }
 
-li {
-  padding: .5rem;
+header {
+  padding: .5rem 0;
+  background-color: #ccc;
   text-align: center;
-  text-decoration: none;
-  padding: 0;
 }
 
-ol {
+
+
+nav ul {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
-div {
-  padding: .5rem;
-  text-align: center;
-  text-decoration: none;
-  padding: 0;
+nav li {
+  text-align: left;
 }
 
-.btn {
-  font-size: 1.125rem;
-  font-weight: normal;
-  color: #fff;
-  background-color: #333;
-  border-color: #fff;
+nav a {
   display: block;
+  padding: .5em .75em;
+  color: #333;
   text-decoration: none;
-  padding: .4em .75em .3em;
-  border-radius: 8px;
-  border-width: 3px;
-
 }
 
-.btn:hover {
-  background-color: #000;
-}
-
-.btn-subtle {
-  background-color: #ccc;
-}
-
-.btn-subtle:hover {
+nav a:hover {
   background-color: #333;
+  color: #fff;
 }
+
+
+
 
 p {
   margin: 0 0 1.3rem;
@@ -100,19 +87,10 @@ figcaption {
 
 @media only screen and (min-width: 25em) {
 
-  div {
-    width: 33.3333%;
-    overflow: hidden;
-    float: left;
-    max-height: 79px;
+  nav li {
+    display: inline-block;
+    text-align: center;
   }
-
-  li {
-    width: 100%;
-    overflow: hidden;
-    float: left;
-  }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -121,11 +99,6 @@ figcaption {
     font-size: 110%;
     line-height: 1.4;
   }
-
-  p {
-    margin: 0 0 1.4rem;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -135,10 +108,18 @@ figcaption {
     line-height: 1.5;
   }
 
-  h1,
-  p {
-    margin: 0 0 1.5rem;
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
   }
+
+  nav li {
+    display: inline-block;
+    text-align: center;
+  }
+
+
 
 }
 
